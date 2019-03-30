@@ -91,8 +91,8 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.MyViewHold
 
         if (pixelDensity < 2.5) {
             float pixelRatio = pixelDensity/2.5f;
-            moviePoster.setScaleX(pixelRatio);
-            moviePoster.setScaleY(pixelRatio);
+//            moviePoster.setScaleX(pixelRatio);
+//            moviePoster.setScaleY(pixelRatio);
             movieTitle.setTextSize(26 * pixelRatio);
             popularity.setTextSize(10);
             averageVote.setTextSize(10);
